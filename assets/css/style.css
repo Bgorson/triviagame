@@ -1,1 +1,30 @@
-/* css */
+body {
+    background-color: lightpink;
+}
+
+.triviaMain {
+    text-align:center;
+    background-color:seagreen;
+    color: white;
+    height:800px;
+    margin-top:5%;
+    width:100%;
+}
+.vertical-align {
+    position:relative;
+    top:25%;
+}
+.title {
+    font-size:125px;
+    padding-top:50px;
+ }
+.start {
+    padding:25px;
+    width:300px;
+}
+#timer {
+    display:none;
+}
+#questions{
+    display:none;
+}
