@@ -6,19 +6,17 @@ body {
     text-align:center;
     background-color:seagreen;
     color: white;
-    height:800px;
+    height:40em;
     margin-top:5%;
-    width:100%;
-}
+    }
 .vertical-align {
     position:relative;
     top:25%;
 }
 .title {
     font-size:125px;
-    padding-top:50px;
- }
-.start {
+    }
+#start {
     padding:25px;
     width:300px;
 }
