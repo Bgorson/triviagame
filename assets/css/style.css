@@ -6,7 +6,8 @@ body {
     text-align:center;
     background-color:seagreen;
     color: white;
-    height:40em;
+    min-height: 20em;
+    height:100%;
     margin-top:5%;
     }
 .vertical-align {
@@ -20,9 +21,19 @@ body {
     padding:25px;
     width:300px;
 }
-#timer {
+#timer, #questions, #submit {
     display:none;
 }
-#questions{
-    display:none;
+#submit {
+    margin:auto;
+    margin-bottom:10px;
+}
+#questions {
+    padding-top:5px;
+}
+.radio-inline{
+    margin-bottom:3rem;
+}
+input{
+    margin: 5px;
 }
